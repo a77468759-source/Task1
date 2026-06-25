@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
+.left{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(255, 187, 0);
+    border-radius:15px 0 0 15px;
+    padding-top: 15px;
+    padding-left: 50px; 
+    position: relative;
+    overflow: hidden;
+}
+.right{
+    height: 100%;
+    width: 35%;
+    background-color: bisque;
+    border-radius:0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 20px;
+    }
+
+
+
+.first{
+    letter-spacing: 3px;
+}
+.left h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.second{
+    padding-bottom: 30px;
+}
+
+.leftspan{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 0;  
+}
+    .right .circle{
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: rgb(255, 187, 0);
+        margin: 8px;    
+    }
+    #selected{
+        height: 11px;
+        width: 11px;
+        background-color: black;
+    }
+    span .pg-icon{
+        margin: 0;
+        padding:0;
+        display: block;
+    }
+    span{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        color: rgb(255, 187, 0);
+        letter-spacing: 1px;
+        -webkit-text-stroke: 2px rgba(0, 66, 128, 0.952);
+        padding-bottom: 150px;
+    }
+    .card img{
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        top: 15%;
+        left: 53%;
+        background-color: transparent;
+    }
+     .right i{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .left span img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 30px;
+        top: 81%;
+    }
